@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  serverExternalPackages: ["@inngest/agent-kit", "inngest", "@e2b/code-interpreter"],
 };
 
 export default nextConfig;
